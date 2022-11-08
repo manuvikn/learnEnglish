@@ -1,0 +1,85 @@
+{
+  "my-words": [
+    {
+      "word": "Hello",
+      "spanish-meaning": "Hola",
+      "add-date": null,
+      "id": 1
+    },
+    {
+      "word": "Car",
+      "spanish-meaning": "Coche",
+      "id": 2
+    },
+    {
+      "word": "Girl",
+      "spanish-meaning": "Chica",
+      "id": 3
+    },
+    {
+      "word": "Big",
+      "spanish-meaning": "Grande",
+      "id": 4
+    },
+    {
+      "word": "Man",
+      "spanish-meaning": "Hombre",
+      "id": 5
+    },
+    {
+      "word": "Man",
+      "spanish-meaning": "Hombre",
+      "id": 6
+    },
+    {
+      "word": "Man",
+      "spanish-meaning": "Hombre",
+      "id": 7
+    },
+    {
+      "word": "Gate",
+      "spanish-meaning": "Verja",
+      "id": 8
+    },
+    {
+      "word": "Gather",
+      "spanish-meaning": "Reunir",
+      "id": 9
+    },
+    {
+      "word": "Tape",
+      "spanish-meaning": "Cinta adhesiva",
+      "id": 10
+    },
+    {
+      "word": "Dog",
+      "spanish-meaning": "Perro",
+      "stay-here": false,
+      "id": 11
+    },
+    {
+      "word": "Cat",
+      "spanish-meaning": "Gato",
+      "stay-here": true,
+      "id": 12
+    },
+    {
+      "word": "Break",
+      "spanish-meaning": "Romper",
+      "stay-here": true,
+      "id": 13
+    },
+    {
+      "word": "Earn",
+      "spanish-meaning": "Ganar ( Dinero )",
+      "stay-here": true,
+      "id": 14
+    },
+    {
+      "word": "Post",
+      "spanish-meaning": "Antes",
+      "stay-here": false,
+      "id": 15
+    }
+  ]
+}

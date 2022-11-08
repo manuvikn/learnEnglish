@@ -1,0 +1,36 @@
+
+<div class="go-back-row">
+    <a class="btn btn-primary" [routerLink]="['/my-words']">Back</a>
+</div>
+
+<div *ngIf="addWordForm" class="add-container">
+
+    <div class="add-column">
+
+        <h1>Add a new Word</h1>
+
+        <form [formGroup]="addWordForm">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">New Word in English</label>
+                <input type="text" formControlName="word" class="form-control" id="word" aria-describedby="word"
+                [ngClass]="{ 'is-valid': addWordForm.controls['word'].valid, 'is-invalid': addWordForm.controls['word'].invalid && addWordForm.controls['word'].dirty }">
+            </div>
+            <div class="mb-3">
+                <label for="spanishMeaning" class="form-label">Meaning in Spanish</label>
+                <input type="text" formControlName="spanish-meaning" class="form-control" id="spanishMeaning"
+                [ngClass]="{ 'is-valid': addWordForm.controls['spanish-meaning'].valid, 'is-invalid': addWordForm.controls['spanish-meaning'].invalid && addWordForm.controls['spanish-meaning'].dirty }">
+                <div id="spanishMeaningHelp" class="form-text">Make sure the word is not in your Word List yet</div>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" formControlName="stay-here" class="form-check-input" id="stayHere">
+                <label class="form-check-label" for="stayHere">Stay here</label>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-lg btn-success" type="button" [disabled]="addWordForm.invalid" (click)="addNewWord()">Add</button>
+            </div>
+        </form>
+        
+
+    </div>
+
+</div>
